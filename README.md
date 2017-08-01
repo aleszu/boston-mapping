@@ -19,41 +19,31 @@ August 2, 2017
 
 ## Introduction to mapping
 
-Using [Google My Maps](https://www.google.com/mymaps), we’ll quickly map some addresses and then plot "shapefiles" of water parks in Boston.
+Using [Google My Maps](https://www.google.com/mymaps), we’ll quickly map water parks in Boston.
 
 ### Mapping points
 
-7. Download point data of TKTKTKT [here](). 
+7. Find Boston water playgrounds through the City of Boston's Analyze Boston [data portal](https://data.boston.gov/dataset/tot-sprays).
 
-8. Import this [CSV]() into [Google My Maps](https://www.google.com/mymaps). 
+8. Import the [KML file](http://bostonopendata-boston.opendata.arcgis.com/datasets/5409b7735d384798b2a360aa47c9b128_0.kml) into [Google My Maps](https://www.google.com/mymaps). 
 
 9. Style the points by selecting "uniform" and then customize their icon and color.
 
-#### *What is this data?*
-
-(This is pulled from **City of Boston's Analyze Boston data portal** found at [https://data.boston.gov/dataset/tot-sprays](https://data.boston.gov/dataset/tot-sprays). 
-
-311 service complaints data, by the way, is a huge list, with everything from rodent complaints to noise complaints to illegally parked cars. 
-
-So, we will filter it down [here](https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data) in the Filter tab by **complaint type: lead, status: open, created date: after 2.1.2017.** Then we'll download a CSV in the Export tab.)
-
-### Mapping buildings/shapes
-
-10. Find Boston water playgrounds through the City of Boston's Analyze Boston [data portal](https://data.boston.gov/dataset/tot-sprays).
-
-11. Import the [KML file](http://bostonopendata-boston.opendata.arcgis.com/datasets/5409b7735d384798b2a360aa47c9b128_0.kml) into [Google My Maps](https://www.google.com/mymaps). 
-
-12. Style the public housing buildings by "borough."
-
-13. Set labels as “development.”
+10. See map [here](https://drive.google.com/open?id=1JrPbOp87tUfBxyq1rgKyUv79G80&usp=sharing).
 
 #### *What is this data?*
 
-(This is pulled from **City of Boston's Analyze Boston data portal** found at [https://data.boston.gov/dataset/tot-sprays](https://data.boston.gov/dataset/tot-sprays). 
-
-Download the KML file.
+This is pulled from **City of Boston's Analyze Boston data portal** found at [https://data.boston.gov/dataset/tot-sprays](https://data.boston.gov/dataset/tot-sprays). 
 
 (KML is essentially a list of shapefiles. Shapefiles are polygons – or, more specifically, a list of coordinates outlining a polygon. A triangle has three coordinates. A square has four. A state like Colorado will have fewer than Rhode Island.) 
 
+### Mapping Cambridge water playgrounds
 
+11. Find Cambridge water playgrounds through the City of Cambridge's GIS [website](https://www.cambridgema.gov/GIS/gisdatadictionary/Recreation).
+
+12. Notice you can only download a zip file of the shapefiles. Download it. Unzip the folder. See how it lists 8 files with extensions like .prj, .sbn, .shp, etc. Google My Maps won't take this folder of shapefiles – although other mapping software like QGIS or Carto.com will. 
+
+13. Convert those shapefiles by dragging them all into the [MyGeodata converter](https://mygeodata.cloud/) and selecting KML as your output. 
+
+14. Import the [KML file](https://drive.google.com/file/d/0B56vzj8m6JInRmRabmlOblFBd0U/view?usp=sharing) into [Google My Maps](https://www.google.com/mymaps). 
 
