@@ -21,7 +21,7 @@ August 2, 2017
 
 Using [Google My Maps](https://www.google.com/mymaps), we’ll quickly map water parks in Boston.
 
-### Mapping points
+### Mapping Boston water playgrounds a.k.a. point data
 
 7. Find Boston water playgrounds through the City of Boston's Analyze Boston [data portal](https://data.boston.gov/dataset/tot-sprays).
 
